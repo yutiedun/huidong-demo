@@ -13,7 +13,7 @@
 <th>name</th>
 </tr>
 
-{foreach item="tag" from=$data}
+{foreach from=$data item="tag"}
 <tr>
 <td>{$tag->id}</td>
 <td>{$tag->name}</td>
